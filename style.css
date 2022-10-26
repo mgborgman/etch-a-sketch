@@ -1,8 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+
+
+
+#header {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Londrina Sketch', cursive;
+}
+
+#grid-size {
+    display: block;
+    margin: 0 auto 30px;
+    font-size: 18px;
+    background: #fff;
+    border: 10px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 #grid-container {
     display: grid;
     justify-content: center;
     width: 960px;
     margin: 0 auto;
+    border: 75px solid red;
+    border-radius: 3%;
 }
 
 #grid-container > div {
